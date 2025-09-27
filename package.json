@@ -1,0 +1,20 @@
+{
+  "name": "research-model-garbage",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.22.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "@tensorflow/tfjs-node-gpu": "^4.22.0",
+    "@types/jpeg-js": "^0.3.7",
+    "http-server": "^14.1.1",
+    "jpeg-js": "^0.4.4"
+  }
+}
